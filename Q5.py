@@ -4,6 +4,5 @@ color = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 color.pop(3)
 print(color)
 #b
-colour = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-colour[3:5]=['Purple']
+color[3]='Purple'
 print(color)
