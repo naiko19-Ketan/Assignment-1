@@ -1,8 +1,7 @@
-m1=int(input('Enter marks: '))
-m2=int(input('Enter marks: '))
-m3=int(input('Enter marks: '))
-m4=int(input('Enter marks: '))
-m5=int(input('Enter marks: '))
-marks=[m1,m2,m3,m4,m5]
-marks.sort()
-print(marks)
+sid=(input('Enter your SID: '))
+name=input('Enter your Name: ')
+gen=input('Enter your Gender(M/F/U): ')
+cour=input('Enter the course name: ')
+cg=float(input('Enter your CGPA: '))
+student=[sid,name,gen,cour,cg]
+print(student)
